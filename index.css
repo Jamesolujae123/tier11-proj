@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #1f69e5, #233479);
+  color: white;
+}
+
+header {
+  background: linear-gradient(to right, #215fce, #233479);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-inline: 155px;
+  padding-block: 15px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: baseline;
+}
+#h-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 155px;
+}
+
+.unlock {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+
+.Sec-container {
+  position: relative;
+}
+
+.Sec-cont {
+  width: 500px;
+}
+
+.tier-11-pic {
+  position: absolute;
+  left: 550px;
+  bottom: -145px;
+}
+
+.section-cont {
+  display: flex;
+}
+
+.Sec-cont-2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+#wifi {
+  color: #4be0af;
+}
+.nav-link {
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.work-with-us-btn {
+  border: none;
+  border-radius: 20px;
+  background: #fd6596;
+  color: #ffddf4;
+  padding-inline: 35px;
+  padding-block: 10px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.w-w-u {
+}
+
+.work-with-us-btn-2 {
+  border: none;
+  border-radius: 45px;
+  background: #fd6596;
+  color: #ffddf4;
+  padding-inline: 45px;
+  padding-block: 17px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  font-style: normal;
+}
+
+.head-cont {
+  display: flex;
+  flex-direction: row;
+  column-gap: 35px;
+  width: 200px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  font-style: normal;
+  color: #c7d1f7;
+}
+
+.nav-link a:hover {
+  color: yellow;
+}
+.h-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.gain-pic {
+  position: absolute;
+  width: 70px;
+  bottom: 50px;
+}
+.what-to-gain {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 155px;
+  justify-items: baseline;
+  position: relative;
+  column-gap: 15px;
+}
+
+.gain {
+  display: flex;
+  flex-direction: column;
+  justify-self: baseline;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
